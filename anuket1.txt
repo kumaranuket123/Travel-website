@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html>
+
+<header><title>practice2</title></header>
+
+<body>
+
+<center><form>
+<h3>Name:</h3>
+<input type="text" required placeholder='Name'>
+<h3>password:</h3>
+<input type="password" placeholder="password">
+<h3>email:</h3>
+<input type="email" placeholder="email"></br>
+<h2>Gender:</h2>
+<input type="radio" value="Male" name="gender" checked>Male<br>
+<input type="radio" value="Female" name="gender">Female<br>
+<input type="radio" value="Both" name="gender">both<br>
+
+<select name="cars" >
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+<h2>year:</h2>
+<input type="checkbox" name="year">I<br>
+<input type="checkbox" name="year">II<br>
+<br>
+<input type="submit"><br><br>
+<input type='reset'>
+
+
+</form><center>
+</body>
+</html>
